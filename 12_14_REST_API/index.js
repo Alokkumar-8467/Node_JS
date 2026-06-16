@@ -32,6 +32,7 @@ app.get("/api/users/:id", (req,res) => {
   return res.json(user)
 })
 
+
 app.post("/api/users", (req,res) => {
   const body = req.body;
   console.log("Body", body)
