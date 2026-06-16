@@ -22,6 +22,7 @@ app.get("/users", (req, res) => {
   res.send(html)
 })
 
+
 // Dynamic path parameters
 // GET /api/users/:id
 //  :id => varaible
